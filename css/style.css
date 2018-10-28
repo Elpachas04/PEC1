@@ -22,6 +22,30 @@ header div h1{
     margin-top:0px;
 }
 
+ul{
+    list-style-type: none; /*no se van a utilizar bolitas o marcas de ningún tipo al lado de los elementos de la lista. */
+    text-align: center; /*centrado*/
+ }
+
+ li{
+    display: inline;  /*para conseguir que los elementos se dispongan uno detrás de otro en la misma línea*/
+    text-align: center;/*volvemos a indicar que cada uno de los elementos tiene el texto centrado*/
+    margin: 0 10px 0 0;/* indicamos un margen entre los elementos. */
+ }
+
+ a {
+    text-decoration: none; /*quitamos estilo de la linea*/
+    color:#222222; /*color del texto y enlace*/
+ }
+
+ a:hover{
+     color:#CC0000  ; /*color cuando pasa el raton o cuando lo seleccionas*/
+ }
+ .menu-actual{ /*indico la clase que debe tener el estilo subrallado*/
+    border-bottom: 1px solid #CC0000; /*le doy color al borde inferior*/
+ }
+
+
 div{
     margin-left: 150px;
 }
