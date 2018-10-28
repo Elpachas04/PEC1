@@ -44,10 +44,63 @@ ul{
  .menu-actual{ /*indico la clase que debe tener el estilo subrallado*/
     border-bottom: 1px solid #CC0000; /*le doy color al borde inferior*/
  }
-
+ hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
 
 div{
     margin-left: 150px;
+    margin-right: 120px;
+}
+
+div > h1{
+    font-size: 35px;
+}
+
+.autor{
+    color: #CC0000;
+}
+
+.autor:hover{
+    color:#222222;
+}
+
+.cita{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.imagen,.video {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.fotografia{
+    width: 80%;   
+}
+
+.selfie{
+    border-radius: 100%;
+    width: 100px
+}
+#biografia{
+    margin-top: 60px
+}
+.bibliografia{
+    font-size: 10px
+}
+.presentacion{
+    float: left;
+    margin-left: 75px;  
+    margin-right: 14px  
+}
+
+.video_youtube{
+    width:560px;
+    height:315px;
 }
 
 footer {
