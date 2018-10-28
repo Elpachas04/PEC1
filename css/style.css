@@ -92,8 +92,6 @@ div > h1{
 }
 .bibliografia{
     font-size: 10px;
-    margin-top: 40px;
-    margin-left: 100px;
 }
 
 .presentacion{
@@ -119,4 +117,8 @@ footer > img{
 }    
 footer > p{
     margin-top: 0px;   
+}
+
+.creative{
+    margin-top: 10px
 }
