@@ -1,9 +1,41 @@
-footer {
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+  }
   
-    width: 100vw;
-    background: #3B3B3B;
+header{
+    background-color: #000000;
+    color:#FFFFFF;     
+    height: 150px;       
+}
+
+header > div > img{
+    width: 200px;
+    margin-top: 15px;
+}
+
+header div h1{
+    font-size: 45px;
+    font-weight: normal;
+    margin-top:0px;
+}
+
+div{
+    margin-left: 150px;
+}
+
+footer {
+    width: 100%;
+    background-color: #3B3B3B;
     color: #FFFFFF;
     text-align: justify;
-    position: absolute;
-    bottom: 50;
+    position: absolute; 
     }
+footer > img{
+    width: 100px;
+}    
+footer > p{
+    margin-top: 0px;   
+}
